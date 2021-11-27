@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TraneApp</string>
+    <string-array name="cities_names">
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Cartagena</item>
+    </string-array>
 </resources>
