@@ -1,0 +1,33 @@
+{
+  "cities": [
+    {
+      "country": "Colombia",
+      "pCity": "Bogota",
+      "contactInfo": "bogota@gmail.com",
+      "description": "BOGOTALorem ipsum lorem ipsum",
+      "urlImg": [
+        "https://images.unsplash.com/photo-1568632234180-0e6c08735d01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1568632234161-4e8f86cf9da4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1551280343-141d8a4e0331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "pCity": "Medellin",
+      "contactInfo": "medellin@gmail.com",
+      "description": " ipsum lorem ipsum",
+      "urlImg": [
+        "1", "2", "3"
+      ]
+    },
+    {
+      "country": "Colombia",
+      "pCity": "Cali",
+      "contactInfo": "cali@gmail.com",
+      "description": "CALILorem ipsum lorem ipsum",
+      "urlImg": [
+        "1", "2", "3"
+      ]
+    }
+  ]
+}
