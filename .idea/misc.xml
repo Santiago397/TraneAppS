@@ -3,6 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/borders_layout.xml" value="0.2203125" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/boton.xml" value="0.2203125" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/hotel_icon.xml" value="0.2203125" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/img_borders.xml" value="0.2203125" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/restaurant_icon.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/star.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_city_deta.xml" value="0.25" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_city_detail.xml" value="0.2727272727272727" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_city_info.xml" value="0.33" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/city_item.xml" value="0.33" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/recycler_view.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/zenky/OneDrive/Escritorio/Santiago/TraneAppS/app/src/main/res/drawable/boton.xml" value="0.2846153846153846" />
         <entry key="..\:/Users/zenky/OneDrive/Escritorio/Santiago/TraneAppS/app/src/main/res/drawable/img_borders.xml" value="0.2846153846153846" />
         <entry key="..\:/Users/zenky/OneDrive/Escritorio/Santiago/TraneAppS/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
