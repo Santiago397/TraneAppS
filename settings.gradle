@@ -1,3 +1,6 @@
 include ':app'
 rootProject.name = "TraneApp"
-include ':traneappfragments'
+include ':appfragments'
+project(':appfragments').projectDir = new File(rootDir, 'appfragments/')
+include ':appfragments'
+include ':appfragments'
