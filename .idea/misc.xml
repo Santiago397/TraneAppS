@@ -3,9 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/drawable/borders_layout.xml" value="0.1" />
         <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_city_detail.xml" value="0.1" />
-        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_main.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/city_item.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/app/src/main/res/xml/root_preferences.xml" value="0.33" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/drawable/borders_layout.xml" value="0.1" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/layout/city_item.xml" value="0.22" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/layout/fragment_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/layout/fragment_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/menu/menu_overflow.xml" value="0.25" />
+        <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/appfragments/src/main/res/xml/root_preferences.xml" value="0.33" />
         <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/traneappfragments/src/main/res/layout/fragment_detail.xml" value="0.18568840579710144" />
         <entry key="..\:/Users/santi/Desktop/Android Studio/Proyecto TraveApp/TraneAppS/traneappfragments/src/main/res/layout/fragment_lolo.xml" value="0.18568840579710144" />
       </map>
