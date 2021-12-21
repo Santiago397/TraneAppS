@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TraneApp</string>
+    <string-array name="cities_names">
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Cartagena</item>
+    </string-array>
+    <string name="title_activity_city_detail">CityDetail</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="rating">Rating</string>
+    <string name="contentDes">Star icon</string>
+    <string name="total_hotel">250</string>
+    <string name="hotels">Hotels</string>
+    <string name="contentDesHotel">hotel icon</string>
+    <string name="total_restaurant">500</string>
+    <string name="contentDesRest">Restaurant icon</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="title_description">Overview</string>
+    <string name="cityImg">City image</string>
+    <string name="title_recyclerView">Explore new ways</string>
+    <string name="contentImg1">contains city\'s images 1</string>
+    <string name="contentImg2">contains city\'s img 2</string>
+    <string name="contentImg3">contains city\'s image 3</string>
+    <!-- Preference Titles -->
+    <string name="notification_header">Notifications</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Notification Preferences -->
+    <string name="notification_title">Turn on notifications</string>
+    <string name="notification_sound">Notifications sounds</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_off">You can hear us</string>
+    <string name="notification_on">You can\'t hear us</string>
+    <string name="more_info">More info...</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="settings">Settings</string>
+</resources>
