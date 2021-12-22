@@ -20,38 +20,11 @@ class MapsFragment : Fragment() {
 
     private val args: MapsFragmentArgs by navArgs()
 
-
-
-
     private val callback = OnMapReadyCallback { googleMap ->
+        val city = LatLng(args.city.alt.toDouble(), args.city.lon.toDouble())
+        googleMap.addMarker(MarkerOptions().position(city).title("Marker in city"))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(city, 13F))
 
-        val a = args.city
-        val b = args.city
-        /**
-         * Manipulates the map once available.
-         * This callback is triggered when the map is ready to be used.
-         * This is where we can add markers or lines, add listeners or move the camera.
-         * In this case, we just add a marker near Sydney, Australia.
-         * If Google Play services is not installed on the device, the user will be prompted to
-         * install it inside the SupportMapFragment. This method will only be triggered once the
-         * user has installed Google Play services and returned to the app.
-         */
-        val sydney = LatLng(args.city.alt.toDouble(), args.city.lon.toDouble())
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-        googleMap
-
-        val bogota = LatLng(args.city.alt.toDouble(), args.city.lon.toDouble())
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Bogota"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bogota, 15F))
-
-        val medellin = LatLng(args.city.alt.toDouble(), args.city.lon.toDouble())
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Medellin"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(medellin, 15F))
-
-        val cartagena = LatLng(args.city.alt.toDouble(), args.city.lon.toDouble())
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Cartagena"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cartagena, 15F))
     }
 
     override fun onCreateView(
