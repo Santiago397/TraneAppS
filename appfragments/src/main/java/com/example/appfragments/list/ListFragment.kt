@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.appfragments.databinding.FragmentListBinding
@@ -19,8 +20,9 @@ import org.json.JSONObject
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
-    private lateinit var cityList: List<City>
+    private lateinit var listViewModel: ListViewModel
     private lateinit var recyclerAdapter: RecyclerAdapter
+    private var cityList: ArrayList<City> = arrayListOf()
 
 
     override fun onCreateView(
@@ -28,17 +30,33 @@ class ListFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
+
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
+
         return listBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        cityList = getInfoJson()
+        listViewModel.getInfoJson(context?.assets?.open("cities.json"))
+
+        listViewModel.onCityListLoaded.observe(viewLifecycleOwner, { result ->
+            onCityLoadedSuscribe(result)
+        })
+
         recyclerAdapter = RecyclerAdapter(cityList, itemClickListener = { this.onCityClicked(it)})
+
         listBinding.recyclerView.apply{
             layoutManager = LinearLayoutManager(context)
             adapter = recyclerAdapter
+        }
+    }
+
+    private fun onCityLoadedSuscribe(result: List<City>?) {
+        result?.let { cityList ->
+            recyclerAdapter.appendItems(cityList)
+
         }
     }
 
@@ -46,37 +64,5 @@ class ListFragment : Fragment() {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(city = city))
     }
 
-    private fun getInfoJson(): List<City> {
 
-        val cityList = mutableListOf<City>()
-
-        try {
-            val obj = JSONObject(Utils(requireContext()).getJsonObject(requireContext()))
-            val citiesArray = obj.getJSONArray("cities")
-
-            for (i in 0 until citiesArray.length()) {
-                val cityData = citiesArray.getJSONObject(i)
-
-                val cityName = cityData.getString("cityName")
-                val countryName = cityData.getString("countryName")
-                val cityDescription = cityData.getString("cityDescription")
-                val cityRate = cityData.getString("cityRate")
-                val cityImages: ArrayList<String> = ArrayList()
-
-                val imgArray = cityData.getJSONArray("cityImages")
-
-                for (a in 0 until imgArray.length()) {
-                    cityImages.add(imgArray.get(a).toString())
-                }
-
-                cityList.add(City(cityName, countryName, cityDescription, cityRate, cityImages))
-
-            }
-
-        } catch (ex: JSONException) {
-            ex.printStackTrace()
-        }
-
-        return cityList
-    }
 }
