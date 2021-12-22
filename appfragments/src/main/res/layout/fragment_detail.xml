@@ -181,6 +181,13 @@
                 android:textColor="@color/colorText1"
                 android:textSize="24sp" />
 
+            <ImageButton
+                android:id="@+id/btnMap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/txtBtnMap"
+                android:src="@drawable/map_icon" />
+
             <TextView
                 android:id="@+id/cityDescrip"
                 android:layout_width="wrap_content"
@@ -189,6 +196,10 @@
                 android:textColor="#8D000000"
                 android:textSize="20sp" />
 
+
+
         </LinearLayout>
+
+
     </LinearLayout>
 </LinearLayout>

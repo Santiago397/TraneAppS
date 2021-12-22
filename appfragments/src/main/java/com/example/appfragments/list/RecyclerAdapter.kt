@@ -14,7 +14,7 @@ import com.udea.traneapp.base.BaseViewHolder
 import java.lang.IllegalArgumentException
 
 class RecyclerAdapter(
-    private val cityList: List<City>,
+    private val cityList: ArrayList<City>,
     private val itemClickListener: (City) -> Unit
 ) : RecyclerView.Adapter<BaseViewHolder<*>>() {
 
@@ -33,6 +33,12 @@ class RecyclerAdapter(
     }
 
     override fun getItemCount(): Int = cityList.size
+
+    fun appendItems(cityList: List<City>) {
+        this.cityList.clear()
+        this.cityList.addAll(cityList)
+        notifyDataSetChanged()
+    }
 
     inner class CityViewHolder(itemView: View) : BaseViewHolder<City>(itemView) {
         override fun bind(item: City, position: Int) {

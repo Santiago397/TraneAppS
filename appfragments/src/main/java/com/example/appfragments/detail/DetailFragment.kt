@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.example.appfragments.databinding.FragmentDetailBinding
@@ -42,7 +43,11 @@ class DetailFragment : Fragment() {
             txtRate.text = city.cityRate
             cityDescrip.text = city.cityDescription
 
-            if (city.cityImages.size > 0 || city.cityImages != null) {
+            btnMap.setOnClickListener{
+                 findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(city = city))
+            }
+
+            if (city.cityImages.size > 0) {
                 Glide.with(requireContext()).load(city.cityImages[0]).into(imageDetail)
             }
         }
