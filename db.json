@@ -1,0 +1,43 @@
+{
+  "cities": [
+    {
+      "countryName": "Colombia",
+      "cityName": "Bogota",
+      "cityDescription": "Bogotá es la extensa capital en altura de Colombia. La Candelaria, su centro con adoquines, cuenta con sitios coloniales como el Teatro Colón neoclásico y la Iglesia de San Francisco del siglo XVII. También alberga museos populares, incluido el Museo Botero, que exhibe arte de Fernando Botero, y el Museo del Oro, con piezas de oro precolombinas.",
+      "cityRate": "5.0",
+      "alt": "4.597855",
+      "lon": "-74.0756485",
+      "cityImages": [
+        "https://www.colombia-travels.com/wp-content/uploads/adobestock-266299444-1.jpeg",
+        "https://images.unsplash.com/photo-1568632234161-4e8f86cf9da4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "https://images.unsplash.com/photo-1551280343-141d8a4e0331?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      ]
+    },
+    {
+      "countryName": "Colombia",
+      "cityName": "Medellin",
+      "cityDescription": "Medellín es la capital de la provincia montañosa de Antioquia en Colombia. Es apodada la \"Ciudad de la eterna primavera\" por su clima templado y alberga la famosa Feria de las Flores anual. El moderno Metrocable conecta la ciudad con los barrios circundantes y tiene vistas del Valle de Aburrá que se encuentra debajo. Las esculturas de Fernando Botero decoran la Plaza Botero en el centro de la ciudad, mientras que el Museo de Antioquia exhibe más obras del artista colombiano.",
+      "cityRate": "4.0",
+      "alt": "6.2500271",
+      "lon": "-75.570322",
+      "cityImages": [
+        "https://cdn.forbes.co/2020/09/Medell%C3%ADn-foto-ProColombia.jpg",
+        "https://images.unsplash.com/photo-1551282643-392c82ebb909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "https://images.unsplash.com/photo-1557733686-54d18473d49e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+      ]
+    },
+    {
+      "countryName": "Colombia",
+      "cityName": "Cartagena",
+      "cityRate": "4.5",
+      "alt": "10.4170269",
+      "lon": "-75.5357348",
+      "cityDescription": "Cartagena es una ciudad portuaria en la costa caribeña de Colombia. Junto al mar, se encuentra la Ciudad Vieja amurallada, que se fundó en el siglo XVI, con plazas, calles de adoquines y edificios coloniales coloridos. Con un clima tropical, la ciudad también es un destino popular por sus playas. Se puede llegar en bote a la Isla de Barú, con playas de arena blanca y palmeras, y a las Islas del Rosario, famosas por sus arrecifes de coral.",
+      "cityImages": [
+        "https://images.unsplash.com/photo-1566949345783-524da11840e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1372&q=80",
+        "https://images.unsplash.com/photo-1533518280131-f16fb5540413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=367&q=80",
+        "https://images.unsplash.com/photo-1566950441122-e95775cf72ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=326&q=80"
+      ]
+    }
+  ]
+}
